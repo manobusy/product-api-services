@@ -17,7 +17,7 @@ Reads pricing information from a NoSQL data store and combines it with the produ
 BONUS: Accepts an HTTP PUT request at the same path (/products/{id}), containing a JSON request body similar to the GET response, and updates the product’s price in the data store. Solution:
 
 Tech Stack:
-Springboot, Maven, Mockito/Junit, RestTemplate/Webclient, Embedded MongoDB, Swagger2.
+Springboot, Maven, Junit, RestTemplate/Webclient, Embedded MongoDB, Swagger2.
 
 Github Repository:
 Download project from the following git repository https://github.com/manobusy/product-api-services
