@@ -26,5 +26,8 @@ To run the application:
 Download the project. Navigate to the project folder and run mvn spring-boot:run Read the API documentation in Swagger2 
 (run http://localhost:8080/swagger-ui.html on the browser)
 
+To monitor metrics
+run http://localhost:8080/prometheus on the browser
+
 To view the logs
 Navigate to the project folder - /log/productService.log
