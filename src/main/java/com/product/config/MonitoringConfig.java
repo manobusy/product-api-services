@@ -22,7 +22,8 @@ class MonitoringConfig {
 	    return CollectorRegistry.defaultRegistry;
 	}
 
-    @Bean
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	@Bean
     ServletRegistrationBean servletRegistrationBean() {
         DefaultExports.initialize();
         return new ServletRegistrationBean(new MetricsServlet(), "/prometheus");

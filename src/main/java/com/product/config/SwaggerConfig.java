@@ -33,6 +33,7 @@ public class SwaggerConfig {
 	}
 	
 	private ApiInfo apiInfo(){
+		@SuppressWarnings("deprecation")
 		ApiInfo apiInfo = new ApiInfo("Target Case Study", "", "", "", "", "", "");
 		return apiInfo;
 	}

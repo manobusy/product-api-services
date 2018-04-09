@@ -38,4 +38,12 @@ public class ProductException extends Exception {
 		this.errorCode = errorCode;
 	}
 
+	public String getErrorMessage() {
+		return errorMessage;
+	}
+
+	public void setErrorMessage(String errorMessage) {
+		this.errorMessage = errorMessage;
+	}
+
 }
